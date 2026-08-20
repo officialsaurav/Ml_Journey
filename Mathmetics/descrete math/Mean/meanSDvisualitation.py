@@ -1,10 +1,12 @@
+##this interactive code is used to visualize the effect of changing the spread of a dataset on its mean and standard deviation. The user can adjust the spread using a slider, and the scatter plot will update accordingly to reflect the new values.
+#findings: for same mean, standard veviation can be different. For same standard deviation, mean can be different.
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 
 # Initial data
 data = np.array([2, 4, 5, 6, 8, 10, 12])
-
 fig, ax = plt.subplots()
 plt.subplots_adjust(bottom=0.25)
 
