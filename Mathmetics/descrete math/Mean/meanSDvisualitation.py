@@ -14,6 +14,8 @@ plt.subplots_adjust(bottom=0.25)
 # Initial plot
 
 
+
+
 scatter = ax.scatter(range(len(data)), data)
 
 ax.set_ylim(0, 20)
