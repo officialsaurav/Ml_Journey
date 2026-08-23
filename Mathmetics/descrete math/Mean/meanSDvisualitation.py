@@ -8,9 +8,12 @@ from matplotlib.widgets import Slider
 # Initial data
 data = np.array([2, 4, 5, 6, 8, 10, 12])
 fig, ax = plt.subplots()
+
 plt.subplots_adjust(bottom=0.25)
 
 # Initial plot
+
+
 scatter = ax.scatter(range(len(data)), data)
 
 ax.set_ylim(0, 20)
