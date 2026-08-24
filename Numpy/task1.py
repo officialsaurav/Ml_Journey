@@ -9,3 +9,4 @@ print(a * 2)  # Output: [2, 4, 6] (Scalar arithmetic)
 # Universal Functions (ufuncs)
 print(np.sqrt(a))  # Calculates square root for every element
 print(np.sin(a))   # Calculates sine value for every element
+print(np.exp(a))   # Calculates exponential for every element
