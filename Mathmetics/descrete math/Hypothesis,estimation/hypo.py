@@ -15,4 +15,7 @@ population_df = pd.DataFrame(population_data, columns=['Value'])
 population_df['Type'] = 'Population'
 population_df['Mean'] = population_mean
 
-print("Population Mean:", population_df['Value'].mean())
+print("Population Mean:", population_df['Value'].mean())\
+
+"""there are multiple types of hypothetis testing, including tabular, calculations, comparisation 
+"""
